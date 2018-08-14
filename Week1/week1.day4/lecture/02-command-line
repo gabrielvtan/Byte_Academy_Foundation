@@ -1,0 +1,28 @@
+navigating in the command line
+
+pwd
+shows you where you are
+
+ls
+shows what is in the folder you are in
+
+cd 
+moves you into a sub folder
+
+cd ..
+moves you back up a sub folder
+
+cd ~
+your unix home folder
+
+if you get lost, run your python script, you'll see after the python -u the path to your project
+
+right now I see 
+python -u "/home/redcartel/cdrive/byte/curriculum/Foundation/4week/week1/day4/lecture/file_structure.py"
+
+take out the .py file at the end and that's the folder.
+
+you can cd into a full path like that. full paths start with a forward slash
+
+cd /home/redcartel/cdrive/byte/curriculum/Foundation/4week/week1/day4/lecture
+gets me to where my file is
