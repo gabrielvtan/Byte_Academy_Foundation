@@ -1,0 +1,71 @@
+# cloning a github project:
+
+# let's get the code for "Think Python"
+
+git clone https://github.com/AllenDowney/ThinkPython
+
+# this will create a ThinkPython directory where you executed the command
+
+# if in the future that code was updated, you could get the changes to your local copy with
+
+git pull
+
+# to create a new git repository
+# move into the top folder of your project (pwd to make sure you are in the right place)
+
+git init
+
+# add files to the repository with
+
+git add filename
+
+# add all of them with
+
+git add -A
+
+# make a commit
+
+git commit -m "first commit of the new repository"
+
+# the message after -m should describe your recent work
+
+# make changes to the files
+
+git status
+
+# will show that there are unstaged changes
+
+git add -A
+
+# to stage all of the changes
+
+git commit -m "updated the files"
+
+# and so on
+
+# *** only add & commit when your code is at a good working stop point ***
+# don't make commits after you've broken something. you shouldn't wait until everything is all the way finished
+# before committing, but each commit should have the project in a more working state than the last commit
+# one useful trick is to use 'git diff' to compare the current files to the last staged change. Very useful
+# if you break something that used to work
+
+# Now create a new repository on your github, don't create a README.md with the site.
+#
+# my github username is 'redcartel' and the repo I created is foundation-example
+#
+# you now want to set the 'origin' remote repository
+
+git remote add origin https://github.com/redcartel/foundation-example.git
+
+# (don't worry, the code to do this is shown when you create a github repo. you can always copy & paste)
+#
+# then push your code to github
+
+git push origin master
+
+# it will ask you for your username and password
+
+# you will then be able to browse your project on github. you can submit links to subdirectories instead
+# of zip files now.
+
+# in fact you have to!
