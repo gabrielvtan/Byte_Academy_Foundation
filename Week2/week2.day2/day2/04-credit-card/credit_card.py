@@ -1,3 +1,30 @@
+## Foundation Week 2 Day 2 Exercise 4 (Challenge) - Credit Card
+
+#### Let's wrap the credit card processor in a class!
+
+# Create a class, its constructor (_____init__) method should take an argument,
+# number.
+  
+# The class definition will have two members: number and cardtype.
+
+#The initialization should call methods that determine if the card
+#is valid, and the card type. If the card is not valid, set cardtype equal to
+#None. Otherwise, set it equal to "Visa", "Mastercard", or "AMEX"
+
+# * write your validation logic as a method that you call with
+#self.validate() in the __init__(number) method.
+
+#### Challenge: `__str__`
+
+# The special `__str__` method of a class determines how the class outputs
+#when printed. Create this method for your credit card class and have it
+#either display as
+```
+#'Invalid Card'
+
+#or
+
+#'Visa: 1111 1111 1111 1111'
 ## Day 3 Challenge 02 - Credit Card Validator
 
 #### A real-world application
@@ -44,46 +71,3 @@ def Card_Validation(checksum):
         
 
 Card_Validation(Luhn_Algo(card_number_stripped_list_reverse))
-
-
-# Determine if the card is valid and what type of card it is.
-
-# * Here is a test value: 347650202246884. It is a valid Amex.
-
-### The algorithm
-
-#### Card type and length
-# Visa must start with 4
-# Mastercard must start with 51, 52, 53, 54 or 55
-# AMEX must start with 34 or 37
-# Discover must start with 6011
-# Visa, MC and Discover have 16 digits
-# AMEX has 15 digits
-# * You already know a card is invalid if it is the wrong length or isn't any type. You can go ahead and say so and use quit() to exit the program 
-# without the rest of the test.
-
-
-# For example:
-# 4 4 8 5 0 4 0 9 9 3 2 8 7 6 1 6`
-# becomes
-#`8 4 16 5 0 4 0 9 18 3 4 8 14 6 2 6`
-
-
-
-# Now, sum all the individual digits together. That is to say, split any numbers with two digits into their individual digits and add them. Like so:
-
-#`8 + 4 + 1 + 6 + 5 + 0 + 4 + 0 + 9 + 1 + 8 + 3 + 4 + 8 + 1 + 4 + 6 + 2 + 6`
-
-# Now take the sum of those numbers and modulo 10.
-
-# 80 % 10
-
-# If the result is 0, the credit card number is valid.
-
-### Business Logic
-
-# "Business Logic" are the requirements and specifications imposed on your code by its real-world application. 
-# It is often the cause of code that is messier than software developers would like. This
-# is where writing good comments that describe what is going on really pay off! A stranger will have to
-# read your code and maintain it someday, and code you wrote 6 months ago and haven't looked at since might
-# as well have been written by a stranger!
