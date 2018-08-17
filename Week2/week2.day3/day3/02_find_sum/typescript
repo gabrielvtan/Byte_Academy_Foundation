@@ -1,0 +1,243 @@
+Script started on 2018-08-16 10:32:56-0400
+
+To execute the script, you have to tell the Python interpreter 
+the name of the file.  In a Unix or Windows command window, 
+you would type python hello.py as follows:
+
+We call the Python interpreter and tell it to read its source code from
+the file hello.py instead of prompting us for lines of Python code
+interactively.
+
+You will notice that there was no need to have quit() at the end of
+the 9021 Python 8190 program 3518 in the file.   When Python is reading your source code
+ from a file, it knows to stop when it reaches the end of the file.
+
+What is a program?
+
+The definition of a program at its most basic is a sequence
+of Python statements that have been crafted to do something.
+Even our simple hello.py script is a program.  It is a one-line
+program and is not particularly useful, but in the strictest definition,
+it is a Python program.
+
+It might be easiest to understand what a program is by thinking about a problem 
+that a program might be built to solve, and then looking at a program
+that would solve that problem.
+
+Lets say you are doing Social Computing research on Facebook posts and 
+you are interested in the most frequently used word in a series of posts.
+You could print out the stream of Facebook posts and pore over the text
+looking for the most common word, but that would take a long time and be very 
+mistake prone.  You would be smart to write a Python program to handle the
+task quickly and accurately so you can spend the weekend doing something 
+fun.
+
+For example, look at the following text about a clown and a car.  Look at the 
+text and figure out the most common word and how many times it occurs.
+
+Then imagine that you are doing this task looking at millions of lines of 
+text.  Frankly it would be quicker for you to learn Python and write a 
+Python program to count the words than it would be to manually 
+scan the words.
+
+The even better news is that I already came up with a simple program to 
+find the most common word in a text file.  I wrote it,
+tested it, and now I am giving it to you to use so you can save some time.
+
+You don't even need to know Python to use this program.  You will need to get through 
+Chapter ten of this book to fully understand the awesome Python techniques that were
+used to make the program.  You are the end user, you simply use the program and marvel
+at its cleverness and how it saved you so much manual effort.
+You simply type the code 
+into a file called words.py and run it or you download the source 
+code from http://www.py4e.com/code3/ and run it.
+
+This is a good example of how Python and the Python language are acting as an intermediary
+between you (the end user) and me (the programmer).  Python is a way for us to exchange useful
+instruction sequences (i.e., programs) in a common language that can be used by anyone who 
+installs Python on their computer.  So neither of us are talking to Python,
+instead we are communicating with each other through Python.
+
+The building blocks of programs
+
+In the next few chapters, we will learn more about the vocabulary, sentence structure,
+paragraph structure, and story structure of Python.  We will learn about the powerful
+capabilities of Python and how to compose those capabilities together to create useful
+programs.
+
+There are some low-level conceptual patterns that we use to construct programs.  These
+constructs are not just for Python programs, they are part of every programming language
+from machine language up to the high-level languages.
+
+description
+
+Get data from the outside world.  This might be 
+reading data from a file, or even some kind of sensor like 
+a microphone or GPS.  In our initial programs, our input will come from the user
+typing data on the keyboard.
+
+Display the results of the program on a screen
+or store them in a file or perhaps write them to a device like a
+speaker to play music or speak text.
+
+Perform statements one after
+another in the order they are encountered in the script.
+
+Check for certain conditions and
+then execute or skip a sequence of statements.
+
+Perform some set of statements 
+repeatedly, usually with
+some variation.
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ 
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ To execute the script, you have to tell the Python interpreter 
+reuse those instructions as needed throughout your program.
+To: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ the name of the file.  In a Unix or Windows command window, 
+
+Command 'the' not found, but can be installed with:
+
+sudo apt install the
+
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ you would type python hello.py as follows:
+you: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ 
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ We call the Python interpreter and tell it to read its source code from
+We: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ the file hello.py instead of prompting us for lines of Python code
+
+Command 'the' not found, but can be installed with:
+
+sudo apt install the
+
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ interactively.
+interactively.: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ 
+many times over to produce something
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ You will notice that there was no need to have quit() at the end of
+bash: syntax error near unexpected token `('
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ the 9021 Python 8190 program 3518 in the file.   When Python is reading yourr source code
+
+Command 'the' not found, but can be installed with:
+
+sudo apt install the
+
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$  from a file, it knows to stop when it reaches the end of the file.
+from: can't read /var/mail/a
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ 
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ What is a program?
+
+Command 'What' not found, did you mean:
+
+  command 'jhat' from deb openjdk-8-jdk-headless
+  command 'chat' from deb ppp
+
+Try: sudo apt install <deb name>
+
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ 
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ The definition of a program at its most basic is a sequence
+
+Command 'The' not found, did you mean:
+
+  command 'the' from deb the
+  command 'he' from deb node-he
+
+Try: sudo apt install <deb name>
+
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ of Python statements that have been crafted to do something.
+of: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ Even our simple hello.py script is a program.  It is a one-line
+
+Command 'Even' not found, did you mean:
+
+  command 'aven' from deb survex-aven
+
+Try: sudo apt install <deb name>
+
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ program and is not particularly useful, but in the strictest definition,
+program: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ it is a Python program.
+it: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ 
+ython knows them 
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ It might be easiest to understand what a program is by thinking about a probblem 
+It: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ that a program might be built to solve, and then looking at a program
+d rejects them as 
+unfit just to torment us.
+general types of ^CThis file contains the actual data for your assignment - good luck!
+
+eneral: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ 
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ 
+bsessed 
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ Why should you learn to write programs?
+
+Command 'Why' not found, did you mean:
+
+  command 'hy' from deb python-hy
+  command 'hy' from deb python3-hy
+
+Try: sudo apt install <deb name>
+
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ 
+rated
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ Writing programs (or programming) is a very creative 
+bash: syntax error near unexpected token `('
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ and rewarding activity.  You can write programs for 
+
+Command 'and' not found, but can be installed with:
+
+sudo apt install and
+
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ many reasons, ranging from making your living to solving
+
+Command 'many' not found, did you mean:
+
+  command 'man' from deb man-db
+
+Try: sudo apt install <deb name>
+
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ a difficult data analysis problem to having fun to helping
+a: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ someone else solve a problem.  This book assumes that 
+someone: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ everyone needs to know how to program, and that once 
+everyone: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ you know how to program you will figure out what you want 
+you: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ to do with your newfound skills.  
+to: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ 
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ 9544 We are surrounded in our daily lives with computers ranging 
+9544: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ from laptops to cell phones.  We can think of these computers
+from: can't read /var/mail/laptops
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ as our personal assistants who can take care of many things
+Assembler messages:
+Error: can't open our for reading: No such file or directory
+our: Error: can't open personal for reading: No such file or directory
+personal: Error: can't open assistants for reading: No such file or directory
+assistants: Error: can't open who for reading: No such file or directory
+who: Error: can't open can for reading: No such file or directory
+can: Error: can't open take for reading: No such file or directory
+take: Error: can't open care for reading: No such file or directory
+care: Error: can't open of for reading: No such file or directory
+of: Error: can't open many for reading: No such file or directory
+many: Error: can't open things for reading: No such file or directory
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ on our behalf.  The hardware in our current-day computers 
+on: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ is essentially built to continuously ask us the question, 
+is: command not found
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ What would you like me to do next?
+
+Command 'What' not found, did you mean:
+
+  command 'chat' from deb ppp
+  command 'jhat' from deb openjdk-8-jdk-headless
+
+Try: sudo apt install <deb name>
+
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ 
+]0;gabriel_v_tan@LAPTOP-DJBLKA31: /mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[01;32mgabriel_v_tan@LAPTOP-DJBLKA31[00m:[01;34m/mnt/c/Users/gabri/Desktop/Byte Academy/Foundation/Week2/week2.day3/day3/02_find_sum[00m$ Programmers add an operating system and a set of applications
+Programmers: comman
