@@ -27,13 +27,14 @@ import re
 
 file = 'mbox-short.txt'
  
+# Open the file and pull all instances of X-DSPAM-Confidence:
 def search_string(filename):
     expression = "(?<=X-DSPAM-Confidence: )0\.\d+"
     with open(filename, 'r') as open_file:
         data = re.findall(expression, open_file.read())
     return data
 
-
+# Find the sum of the int values associated with X-DSPAM-Confidence:
 def find_sum(data):
     sum = 0 
     for num in data:
@@ -41,9 +42,20 @@ def find_sum(data):
     return sum /len(data)
  
 
+# Solution searching for line by line
 
-print (find_sum(search_string(file)))
-
+def get_answer(filename):
+    with open(filename, 'r') as file_object:
+        _count = 0
+        _sum = 0.0
+        pattern = "X-DSPAM-Confidence:\s+([0-9.]+)"
+        for line in file_object:
+            result = re.search(pattern,line)
+            if result: #if result is NOT NONE
+                value = result.groups()[0]
+                _sum = _sum + float(value)
+                _count = _count + 1
+    return (_sum/_count)
 
 
  

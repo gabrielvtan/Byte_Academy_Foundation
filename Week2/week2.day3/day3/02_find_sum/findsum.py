@@ -20,9 +20,17 @@ def open_and_create_string(filename):
 
 def find_sum(file):
     match = re.findall("\d+", open_and_create_string(file))
-    match = list(map(int,match))
+    match = map(int,match)
     return sum(match)
 
+# Solution searching line by line'''
 
-print(find_sum(file))
- 
+def filesum(filename):
+    with open(filename, "r") as file_object:
+        total = 0
+        for line in file_object:
+            pattern = "\d+"
+            result = re.findall(pattern, line)
+            if result != None:
+                total += sum(map(int,result))
+        return total
