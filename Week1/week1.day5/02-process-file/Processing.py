@@ -24,7 +24,7 @@ def search_sum(file_read):
     return output_list
 
 lines = search_sum(file)
-
+print(lines)
 #isolate numbers
 strip_lines = [i.strip('X-DSPAM-Confidence: ') for i in lines]
 strip_lines = [i.strip('\n') for i in strip_lines]
