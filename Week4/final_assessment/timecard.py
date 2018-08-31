@@ -52,11 +52,15 @@ def main_timestamp(userAccount, pin, time):
 def boss_view(userAcccount):
     accounts = read_file()
     header = 'EMPLOY  ID           MINUTES WORKED'
+    boarder = '-----------------------------------'
     print("Boss View")
+    print(boarder)
     print(header)
+    print(boarder)
     for employee in accounts:
         print("{:<20} {:<20}".format(employee, accounts[employee]["Time"]))
-
+    print(boarder)
+    
 # Update the file whenever a user enters in a new time
 def update_masterfile(userAccount, pin, time):
     accounts = read_file()
