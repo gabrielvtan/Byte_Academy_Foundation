@@ -26,7 +26,7 @@ def user_input():
             }
             accounts[accountKey] = new_account
             write_file(accounts)
-            print("Thank you for opening a new account!\n")
+            print("Welcome New Employee!\n")
             user_input()
 
 def read_file():
@@ -60,7 +60,7 @@ def boss_view(userAcccount):
     for employee in accounts:
         print("{:<20} {:<20}".format(employee, accounts[employee]["Time"]))
     print(boarder)
-    
+
 # Update the file whenever a user enters in a new time
 def update_masterfile(userAccount, pin, time):
     accounts = read_file()
