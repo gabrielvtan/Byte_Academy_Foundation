@@ -1,4 +1,5 @@
 import json
+import time
 
 mastertimecard = 'timecard.json'
 
@@ -39,10 +40,12 @@ def write_file(accounts):
 
 def main_timestamp(userAccount, pin, time):
     print("Hello Employee: {}".format(userAccount))
-    new_time = int(input("How many minutes did you work today: "))
-    if new_time > 0:
-        time = time + new_time
-        print("You have entered {} minutes.\nYour total work time is {} minutes".format(new_time, time))
+    new_time = input("How much time did you work today (HH:MM): ")
+    hours, minutes = new_time.split(':')
+    total_minutes = int(hours)*60 + int(minutes)
+    if total_minutes > 0:
+        time = time + total_minutes
+        print("You have entered {} minutes.\nYour total work time is {} minutes".format(total_minutes, time))
         print('Thank you! Have a great day!')
         update_masterfile(userAccount, pin, time)
 
